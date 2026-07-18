@@ -1,4 +1,4 @@
-# Tienda virtual de café (StarBU)
+# Tienda virtual de café - StarBU
 
 - Curso: Patrones de Diseño de Software
 - Alumno: Patrones de Diseño de Sofware
@@ -59,76 +59,8 @@ Este enfoque genera problemas:
 
 ---
 
-# 3. Justificación del patrón elegido
 
-## Patrón Decorator (GoF)
-
-El patrón Decorator permite añadir nuevas responsabilidades a un objeto dinámicamente sin modificar su estructura original.
-
-En este proyecto:
-
-- La bebida base representa un café simple.
-- Los ingredientes adicionales funcionan como decoradores.
-- Cada decorador modifica la descripción y el precio final.
-
-Ejemplo:
-
-```text
-Espresso
-   +
-Leche
-   +
-Caramelo
-   +
-Crema
-```
-
-Resultado:
-
-```text
-Espresso con leche, caramelo y crema
-
-Precio:
-Precio base + ingredientes adicionales
-```
-
-Ventajas:
-
-- Evita crear clases para cada combinación.
-- Facilita agregar nuevos ingredientes.
-- Mantiene el código extensible.
-- Cumple el principio Open/Closed.
-
----
-
-# 5. Tecnologías utilizadas
-
-## Frontend
-
-- React
-- TypeScript
-- Tailwind CSS
-
-## Backend
-
-- Node.js
-- Express
-- TypeScript
-
-## Base de datos
-
-- PostgreSQL
-
-## Herramientas
-
-- Git
-- GitHub
-- Visual Studio Code
-- Postman
-
----
-
-# 7. Funcionamiento del patrón Decorator
+# 3. Funcionamiento del patrón Decorator
 
 ## Paso 1: Selección del café base
 
@@ -186,6 +118,19 @@ Total          $5.00
 
 ---
 
-# 8. DIagrama UML
+# 4. DIagrama UML
 
 ![Diagrama UML del patrón Decorator](image/DiagramaUML-Semana15.png)
+
+# 5. Conventional Commits
+
+Ejemplos utilizados durante el desarrollo:
+
+```text
+feat: implementar la clase Main.java
+docs: implementar la documentacion
+docs: corrige instrucciones incorrectas en el README
+```
+
+---
+
