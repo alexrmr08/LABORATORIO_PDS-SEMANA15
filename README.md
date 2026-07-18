@@ -1,4 +1,4 @@
-# Tienda virtual de café - StarBU
+# Tienda de café - StarBU
 
 - Curso: Patrones de Diseño de Software
 - Alumno: Patrones de Diseño de Sofware
